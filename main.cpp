@@ -24,7 +24,7 @@ int numTwo;
 };
 
 int main() {
-
+        cout << "Hello world" << endl;
         SomeData data(5);
         data.printSomeData();
         int aData = data.returnData() + data.returnData();
